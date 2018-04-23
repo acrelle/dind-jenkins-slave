@@ -1,4 +1,4 @@
-FROM jenkins/ssh-slave
+FROM acrelle/rpi-docker-ssh-slave
 RUN  curl -sSL https://get.docker.com/ | sh
 RUN apt-get update &&\
     apt-get install -y openjdk-8-jdk &&\
